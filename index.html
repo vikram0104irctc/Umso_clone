@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umso</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #0a0b0f;
+      font-family: "Inter", sans-serif;
+    }
+
+    div#container {
+      /* max-width: 1200px; */
+      /* min-height: 100vh; */
+      display: grid;
+      display: grid;
+      place-items: center;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+
+    div#container>div {
+      /* border: 2px solid red; */
+
+    }
+
+    div#header {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 600px;
+    }
+
+    div#container>div>div>img {
+      width: 150px;
+    }
+
+    div#container>div>div:nth-of-type(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    div#header>div:nth-of-type(2)>button:nth-of-type(1) {
+      height: 40px;
+      width: 60px;
+      background-color: transparent;
+      border: 1px solid gray;
+      color: white;
+      border-radius: 5px;
+
+    }
+
+    div#header>div:nth-of-type(2)>button:nth-of-type(2) {
+      height: 40px;
+      width: 90px;
+      background-color: transparent;
+      border: 1px solid gray;
+      color: white;
+      border-radius: 5px;
+
+    }
+
+    div#header>div:nth-of-type(2)>button:hover {
+      border: 1px solid #7009c2;
+
+    }
+
+    div#main>div {
+      font-size: 70px;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div#main {
+      margin-top: 110px;
+    }
+
+    #search {
+      border: 5px solid #7e76c3;
+      height: 65px;
+      width: 600px;
+      border-radius: 20px;
+      margin-top: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+
+    div#header>div:nth-of-type(2)>p:nth-of-type(1):hover {
+      text-decoration: underline;
+
+    }
+
+    div#header>div:nth-of-type(2)>p:nth-of-type(3):hover {
+      text-decoration: underline;
+
+    }
+
+    .button_g {
+      font-size: 25px;
+      background-color: #7b10fe;
+      height: 48px;
+      width: 142px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      margin-right: 10px;
+    }
+
+    .button_g:hover {
+      background-color: #7305fa;
+    }
+
+
+
+
+    .footer {
+      background-color: #111;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    .footer .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer .column {
+      flex: 1;
+      padding: 0 20px;
+      min-width: 200px;
+    }
+
+    .footer .column h3 {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .footer .column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer .column ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer .column ul li a {
+      color: #bbb;
+      text-decoration: none;
+      font-size: 13px;
+      display: block;
+      padding: 0;
+    }
+
+    .footer .column ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .social {
+      margin-top: 20px;
+    }
+
+    .footer .social a {
+      margin: 0 8px;
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    .footer .social a i {
+      font-size: 20px;
+    }
+
+    .footer .social a:hover {
+      color: #fff;
+    }
+
+    .footer .bottom {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #bbb;
+    }
+
+    .footer p {
+      font-size: 12px;
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <div>
+        <img src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/csi5g5qmp4uscbth.png" alt="">
+      </div>
+      <div>
+        <p><a style="text-decoration: none; color: white;" href="#">Pricing</a></p>
+        <p><a style="text-decoration: none; color: white;" href="#">Features</a></p>
+        <p>Showcase</p>
+        <button><a style="text-decoration: none; color: white;" href="#">Login</a></button>
+        <button><a style="text-decoration: none; color: white;" href="#">Sign Up</a></button>
+      </div>
+    </div>
+    <div id="main">
+      <div>Get your</div>
+      <div style="color: #480cec;">AI Generated Website</div>
+      <div>In Seconds</div>
+      <div style="font-size: 23px; font-weight: 400; color: gray; margin-top: 15px;">Give it a try right below, without
+        having to sign up!
+      </div>
+    </div>
+    <div id="search">
+      <p style="color: white;padding-right: 218px;">I need a website for my.....</p>
+      <button class="button_g"><a style="text-decoration: none; color: white;" href="#" href="#">Generate</a></button>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="column">
+          <div class="bottom">
+            &copy; 2024 Umso Software Inc.
+          </div>
+          <div class="logo">
+            <img src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/csi5g5qmp4uscbth.png?w=200&h=40&dpr=2" alt="logo"
+              width="100">
+          </div>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p>Cookie Settings</p>
+        </div>
+        <div class="column">
+          <h3 style="color: white;">Features</h3>
+          <ul>
+            <li><a href="#">Custom Forms</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Cookie Solution</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Multilingual Sites</a></li>
+            <li><a href="#">User Management</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3 style="color: white;">Company</h3>
+          <ul>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3 style="color: white;">Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Security Policy</a></li>
+            <li><a href="#">DPA</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
